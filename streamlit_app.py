@@ -3,7 +3,7 @@ import httpx
 import uuid
 
 # API Base URL
-API_URL = "http://localhost:8000"
+API_URL = "http://192.168.11.117:8000"
 
 # Initialize session state for tracking chats and current chat session
 if "chat_history" not in st.session_state:
